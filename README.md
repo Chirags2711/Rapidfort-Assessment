@@ -131,6 +131,7 @@ CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
    ```bash
    docker run -d -p 8000:8000 flask-docx-to-pdf
    ```
+   (On MacOS, Port 5000 is not available, so Port 8000 is used by me here)
 
 Access the app at: [http://localhost:8000](http://localhost:8000)
 
