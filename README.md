@@ -1,6 +1,12 @@
 # Flask Application for File Upload and Conversion
 
-This documentation provides a detailed explanation of a Flask-based application for uploading `.docx` files, converting them to PDF format, and optionally applying password protection to the generated PDF. The project also includes Docker support.
+This documentation provides a detailed explanation of a Flask-based application for uploading `.docx` files, converting them to PDF format, and optionally applying password protection to the generated PDF.
+
+##Comments:
+The project includes Docker support.
+Github Actions workflows are configured with '.yml' file, to build and deploy on Docker Hub. Additionally, tests are also performed using test_app.py
+
+---
 
 ## Features
 1. Upload `.docx` files through a web interface.
